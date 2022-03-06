@@ -20,6 +20,15 @@ $ npx sub-adjuster
 Example
 -------
 
+After globally installed just run the command `sub-adjuster` or `sbad` via console inside the folder that contain the srt file to adjust, 
+or just run:
+
+``` bash
+$ npx sub-adjuster
+```
+
+inside the folder that contain the srt file to adjust
+
 ![alt text](https://github.com/devperate/sub-adjuster/blob/main/examples/example.jpg?raw=true)
 
 
