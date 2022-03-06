@@ -1,7 +1,7 @@
 {
 	"name": "sub-adjuster",
-	"description": "Adjust the time to a subtitle file easy",
-	"version": "0.0.4",
+	"description": "Adjust the time to a subtitle file easyly",
+	"version": "0.0.7",
 	"license": "MIT",
 	"bin": {
 		"sub-adjuster": "index.js",
@@ -14,7 +14,9 @@
 	},
 	"keywords": [
 		"sub-adjuster",
-		"devperate"
+		"devperate",
+		"subtitle",
+		"srt"
 	],
 	"files": [
 		"index.js",
