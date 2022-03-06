@@ -1,7 +1,7 @@
 {
 	"name": "sub-adjuster",
 	"description": "Adjust the time to a subtitle file easyly",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"license": "MIT",
 	"bin": {
 		"sub-adjuster": "index.js",
