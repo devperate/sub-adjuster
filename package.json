@@ -1,7 +1,7 @@
 {
 	"name": "sub-adjuster",
 	"description": "Adjust the time to a subtitle file easy",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"license": "MIT",
 	"bin": {
 		"sub-adjuster": "index.js",
@@ -37,5 +37,9 @@
 	},
 	"devDependencies": {
 		"prettier": "^2.5.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devperate/sub-adjuster"
 	}
 }
