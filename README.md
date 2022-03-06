@@ -20,7 +20,8 @@ $ npx sub-adjuster
 Example
 -------
 
-![alt text](https://github.com/devperate/subadjuster/tree/main/examples/example.jpg?raw=true)
+![alt text](https://github.com/devperate/sub-adjuster/blob/main/examples/example.jpg?raw=true)
+
 
 License
 -------
