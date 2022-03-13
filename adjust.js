@@ -6,7 +6,9 @@ module.exports = (file, seconds) => {
 	const raw_f = fs.readFileSync(file);
 	const text = iconv.decode(raw_f, 'latin1');
 	//console.log(text);
-	const output = path.join(process.cwd(), getOutputFileName(file));
+
+	const output_file_name = getOutputFileName(file);
+	const output = path.join(process.cwd(), output_file_name);
 
 	const text_array = text.split('\n');
 	//console.log(text_array);
@@ -27,7 +29,7 @@ module.exports = (file, seconds) => {
 
 	fs.writeFile(output, text_fixed, 'utf8', err => {
 		if (err) throw err;
-		console.log("\nIt's saved!", `${fileName}.fixed.${ext}`);
+		console.log("\nIt's saved!", output_file_name);
 	});
 };
 
