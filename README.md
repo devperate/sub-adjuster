@@ -1,6 +1,6 @@
 # sub-adjuster
 
-### An nodejs cli-app to adjust the time to a subtitle file easyly
+### An nodejs cli-app to adjust the time to a subtitle file easily
 
 ## Installation
 
